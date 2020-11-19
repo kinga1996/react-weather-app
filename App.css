@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Ink Free", "Eras ITC", "Copper", "Helvetica";
+}
+
+
+.App, .thunderstorm, .drizzle, .rain, .snow, .fog, .tornado, .clear, .clouds{
+  position: absolute;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background-size: cover;
+}
+
+.App{
+  background-image: url('./img/backgrounds/app.png');
+}
+
+.thunderstorm{
+  background-image: url('./img/backgrounds/thunderstorm.png');
+}
+
+.drizzle{
+  background-image: url('./img/backgrounds/drizzle.png');
+}
+
+.rain{
+  background-image: url('./img/backgrounds/rain.png');
+}
+
+.snow{
+  background-image: url('./img/backgrounds/snow.png');
+}
+
+.fog{
+  background-image: url('./img/backgrounds/fog.png');
+}
+
+.tornado{
+  background-image: url('./img/backgrounds/tornado.png');
+}
+
+.clear{
+  background-image: url('./img/backgrounds/clear.png');
+}
+
+.clouds{
+  background-image: url('./img/backgrounds/cloudy.png');
+}
+
+#headH1{
+  font-size: 2,5em;
+  text-shadow: 1px 1px grey;
+  margin-bottom: 4vh;
+}

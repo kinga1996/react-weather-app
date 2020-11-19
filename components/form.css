@@ -1,0 +1,21 @@
+form{
+    margin-bottom: 4vh;
+}
+
+form input{
+    margin: 0.5vh;
+    margin-left: 1vw; margin-right: 1vw;
+    border: none;
+    background-color: rgba(255,255,255,0.7);
+    font-family: "Ink Free", "Eras ITC", "Copper", "Helvetica";
+    text-shadow: 1px 1px grey;
+    font-size: 1.5em;
+    border-bottom: 1px black solid;
+}
+
+button{
+    background-color: rgba(255,255,255,0.5);
+    font-family: "Ink Free", "Eras ITC", "Copper", "Helvetica";
+    font-size: 1.2em;
+    padding: 2px;
+}
